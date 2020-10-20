@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+.left {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.invoice {
+  display: flex;
+  align-items: center;
+  padding: 10px 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice p {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  padding: 10px 35px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  width: 37%;
+}
+.date h4 {
+  background-color: gray;
+}
+.date .datee {
+  margin-left: 15px;
+}
+
+.date .time {
+  margin-left: 8px;
+}
+
+.seller {
+  display: flex;
+  align-items: center;
+  padding: 10px 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seller p {
+  padding-left: 15px;
+}
+
+.buyer {
+  display: flex;
+  align-items: center;
+  padding: 10px 35px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buyer h4 {
+  background-color: gray;
+}
+.buyer h5 {
+  padding-left: 15px;
+}
+.buyer p {
+  padding-left: 15px;
+}
+
+.right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.logo img {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  border: 3px solid #e5e5e5;
+  border-radius: 15%;
+}
+.web {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 20px;
+  font-size: 15px;
+}
+.web a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+
+
+/* section 1 */
+
+.section1{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
+
+
+
+/* section 2 */
+
+
+.section2 {
+  max-width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.section2 .leftsec {
+  width: 60%;
+  flex-direction: row;
+}
+.cash {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bank {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.paid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.due {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section2 .rightsec {
+  width: 40%;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subtotal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .shipping {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .discount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .total {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+
+
+
+  .leftsec .h6{
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .leftsec .para{
+    width: 50%;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .rightsec .h6{
+    width: 70%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .rightsec .para{
+    width: 30%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .section2 h6{
+      font-size: 12px;
+      padding: 5px 10px;
+  }
+
+  .section2 p{
+    padding: 5px 20px;
+    font-size: 13px;
+}
+.leftsec hr{
+    max-width: 70%;
+}
+.rightsec hr{
+    max-width: 100%;
+}
+
+.bottom{
+    max-width: 80%;
+    margin-top: 50px;
+    position: relative;
+}
+.btm{
+    max-width: 20%;
+    position: fixed;
+    right: 200px;
+}
